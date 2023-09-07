@@ -21,7 +21,7 @@ export const Figcaption = styled.figcaption`
     left: 20px;
     color: ${theme.colors.white};
 
-    h2 {
+    h3 {
       margin-bottom: 10px;
       color: ${theme.colors.white};
       ${theme.typo.head.md};
