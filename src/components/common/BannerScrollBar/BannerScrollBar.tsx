@@ -7,7 +7,7 @@ type BannerScrollBarProps = {
 export default function BannerScrollBar({ activeIndex }: BannerScrollBarProps) {
   return (
     <S.Container activeIndex={activeIndex}>
-      <span></span>
+      <span />
     </S.Container>
   );
 }
