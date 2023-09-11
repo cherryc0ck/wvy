@@ -5,9 +5,5 @@ type ThemeTagProps = {
 };
 
 export default function ThemeTag({ value }: ThemeTagProps) {
-  return (
-    <S.Container>
-      <span>{value}</span>
-    </S.Container>
-  );
+  return <S.Tag>{value}</S.Tag>;
 }
