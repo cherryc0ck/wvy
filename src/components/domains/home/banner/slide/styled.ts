@@ -1,3 +1,4 @@
+import { Swiper } from "swiper/react";
 import styled, { css } from "styled-components";
 
 export const Section = styled.section`
@@ -6,11 +7,24 @@ export const Section = styled.section`
   `};
 `;
 
+export const CustomSwiper = styled(Swiper)`
+  ${({ theme }) => css`
+    width: 100%;
+    ${theme.flex.row("flex-start")};
+
+    .swiper-slide,
+    .swiper-wrapper {
+      width: 360px;
+      height: 480px;
+    }
+  `};
+`;
+
 export const Figure = styled.figure`
   ${({ theme }) => css`
     position: relative;
-    width: 360px;
     height: 480px;
+    aspect-ratio: 360/480;
   `};
 `;
 
