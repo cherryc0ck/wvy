@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { HeartButton } from "@/components/common";
+import useLike from "@/hooks/useLike";
 import * as S from "./styled";
 
 type HomeCategoryListProps = {
@@ -16,12 +17,10 @@ type ListItems = {
 };
 
 export default function HomeCategoryList({ list }: HomeCategoryListProps) {
-  const handleLikeItem = () => {
-    alert("handleLikeItem");
-  };
+  const { handleLikeItem } = useLike();
 
   return (
-    <S.CustomSwiper slidesPerView={4.26} spaceBetween={4}>
+    <S.CustomSwiper slidesPerView={"auto"} spaceBetween={4}>
       {list.map((item) => (
         <SwiperSlide key={item.name}>
           <S.Figure>
