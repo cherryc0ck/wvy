@@ -1,6 +1,6 @@
 import Image from "next/image";
 import dayjs from "dayjs";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { ThemeTag } from "@/components/common";
@@ -47,7 +47,7 @@ const TODAY_ITEM_LIST = [
     title: "모던한 지갑",
     brand: "EQL",
     theme: "브랜드",
-    tags: ["레더", "핸드메이드", "지갑"],
+    tags: ["레더", "모던", "지갑"],
   },
   {
     src: "/images/home/today/today-image-7.png",
@@ -58,10 +58,10 @@ const TODAY_ITEM_LIST = [
   },
   {
     src: "/images/home/today/today-image-8.png",
-    title: "독보적인 핸드메이드의 디테일",
+    title: "핸드메이드의 디테일",
     brand: "LONDON UNDERGROUND",
     theme: "브랜드",
-    tags: ["핸드메이드", "레더", "인터뷰"],
+    tags: ["독보적", "레더", "인터뷰"],
   },
   {
     src: "/images/home/today/today-image-9.png",
@@ -79,31 +79,13 @@ const TODAY_ITEM_LIST = [
   },
 ];
 
-// const breakpoints = {
-//   // when window width is >= 320px
-//   320: {
-//     slidesPerView: 2,
-//     spaceBetween: 20,
-//   },
-//   // when window width is >= 480px
-//   480: {
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//   },
-//   // when window width is >= 640px
-//   640: {
-//     slidesPerView: 4,
-//     spaceBetween: 40,
-//   },
-// };
-
 export default function HomeTodayItemList() {
   return (
     <S.Section>
       <S.Date dateTime={dayjs().format("MM.DD.ddd")}>
         {dayjs().format("MM.DD.ddd")}
       </S.Date>
-      <Swiper slidesPerView={1.55} spaceBetween={10}>
+      <S.CustomSwiper slidesPerView={"auto"} spaceBetween={10}>
         {TODAY_ITEM_LIST.map((item) => (
           <SwiperSlide key={item.title}>
             <S.Figure>
@@ -123,7 +105,7 @@ export default function HomeTodayItemList() {
             </S.ThemeTags>
           </SwiperSlide>
         ))}
-      </Swiper>
+      </S.CustomSwiper>
     </S.Section>
   );
 }

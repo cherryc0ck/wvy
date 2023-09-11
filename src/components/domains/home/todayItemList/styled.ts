@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Swiper } from "swiper/react";
 
 export const Section = styled.section`
   ${({ theme }) => css`
@@ -15,10 +16,24 @@ export const Date = styled.time`
   `};
 `;
 
+export const CustomSwiper = styled(Swiper)`
+  ${({ theme }) => css`
+    width: 100%;
+    ${theme.flex.row("flex-start")};
+
+    .swiper-slide,
+    .swiper-wrapper {
+      width: 180px;
+      height: auto;
+    }
+  `};
+`;
+
 export const Figure = styled.figure`
   ${({ theme }) => css`
     position: relative;
-    aspect-ratio: 180/243;
+    width: 180px;
+    height: 243px;
     margin-bottom: 10px;
   `};
 `;
