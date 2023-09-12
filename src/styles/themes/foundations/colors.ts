@@ -8,6 +8,7 @@ export const colors = {
   gray400: "#BDBDBD",
   gray600: "#757575",
   gray800: "#424242",
+  gray900: "#212121",
   mainBlack: "#121212",
   black: "#000",
   dim: "rgba(0, 0, 0, 0.4)",
