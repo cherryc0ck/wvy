@@ -1,9 +1,21 @@
 "use client";
 
+import {
+  HomeBanner,
+  HomeCategory,
+  HomeCoordination,
+  HomeExhibition,
+  HomeTodayItemList,
+} from "@/components/domains";
+
 export default function HomePage() {
   return (
     <main>
-      <section>HomePage</section>
+      <HomeBanner />
+      <HomeTodayItemList />
+      <HomeCategory />
+      <HomeCoordination />
+      <HomeExhibition />
     </main>
   );
 }
