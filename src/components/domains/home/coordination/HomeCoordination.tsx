@@ -34,7 +34,7 @@ export default function HomeCoordination() {
         {codyList.today.map((item) => (
           <SwiperSlide key={item.name}>
             <S.Figure>
-              <Image src={item.src} fill={true} alt={item.name} />
+              <Image src={item.src} fill={true} sizes="100%" alt={item.name} />
             </S.Figure>
           </SwiperSlide>
         ))}

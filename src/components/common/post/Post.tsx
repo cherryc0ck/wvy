@@ -12,7 +12,13 @@ export default function Post({ item }: PostProps) {
   return (
     <S.Post>
       <S.Figure>
-        <Image src={item.mainImg} alt={item.title} fill={true} priority />
+        <Image
+          src={item.mainImg}
+          alt={item.title}
+          fill={true}
+          sizes="100%"
+          priority
+        />
         <S.Figcaption>
           <span>{item.theme}</span>
         </S.Figcaption>
@@ -27,9 +33,15 @@ export default function Post({ item }: PostProps) {
         </S.TagWrapper>
       </S.ItemDesc>
       <S.SubImageWrapper>
-        {item.subImg.map((subImg) => (
-          <S.SubFigure>
-            <Image src={subImg} alt="서브 이미지" fill={true} priority />
+        {item.subImg.map((subImg, idx) => (
+          <S.SubFigure key={idx}>
+            <Image
+              src={subImg}
+              alt="서브 이미지"
+              fill={true}
+              sizes="100%"
+              priority
+            />
           </S.SubFigure>
         ))}
       </S.SubImageWrapper>

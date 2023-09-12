@@ -89,7 +89,13 @@ export default function HomeTodayItemList() {
         {TODAY_ITEM_LIST.map((item) => (
           <SwiperSlide key={item.title}>
             <S.Figure>
-              <Image src={item.src} alt={item.title} fill={true} priority />
+              <Image
+                src={item.src}
+                alt={item.title}
+                fill={true}
+                priority
+                sizes="100%"
+              />
               <S.Figcaption>
                 <span>{item.theme}</span>
               </S.Figcaption>
@@ -100,7 +106,7 @@ export default function HomeTodayItemList() {
             </S.ItemDesc>
             <S.ThemeTags>
               {item.tags.map((tag) => (
-                <ThemeTag value={tag} />
+                <ThemeTag key={tag} value={tag} />
               ))}
             </S.ThemeTags>
           </SwiperSlide>
