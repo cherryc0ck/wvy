@@ -6,7 +6,8 @@ type SearchInputProps = {
   placeholder: string;
   name: string;
   value: string;
-  onClick: () => void;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
 };
 
 export default function SearchInput({
@@ -14,20 +15,22 @@ export default function SearchInput({
   placeholder,
   name,
   value,
-  onClick,
+  onChange,
+  onSubmit,
 }: SearchInputProps) {
   return (
-    <S.Container className={className}>
+    <S.Form className={className} onSubmit={onSubmit}>
       <S.Label />
       <S.Input
         type="search"
         placeholder={placeholder}
         name={name}
         value={value}
+        onChange={onChange}
       />
-      <S.Button onClick={onClick}>
+      <S.Button>
         <SearchIcon />
       </S.Button>
-    </S.Container>
+    </S.Form>
   );
 }

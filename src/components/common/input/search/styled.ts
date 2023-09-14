@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const Container = styled.div`
+export const Form = styled.form`
   ${({ theme }) => css`
     position: relative;
     ${theme.flex.row("space-between")};
