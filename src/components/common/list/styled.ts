@@ -5,6 +5,7 @@ export const List = styled.ul`
     ${theme.flex.col("center", "flex-start")};
     gap: 10px;
     margin-bottom: 40px;
+    padding: 0 20px;
   `};
 `;
 
