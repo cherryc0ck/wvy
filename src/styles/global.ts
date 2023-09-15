@@ -168,6 +168,19 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
   }
+  input::-ms-clear,
+  input::-ms-reveal {
+	  display:none;
+    width:0;
+    height:0;
+  }
+
+  input::-webkit-search-decoration,
+  input::-webkit-search-cancel-button,
+  input::-webkit-search-results-button,
+  input::-webkit-search-results-decoration {
+	  display:none;
+  }
   textarea {
     outline: none;
     resize: none;
@@ -209,6 +222,7 @@ const GlobalStyle = createGlobalStyle`
   pre {
     color: ${theme.colors.mainBlack};
   }
+
 `;
 
 export default GlobalStyle;
