@@ -7,7 +7,7 @@ type HeartButtonProps = {
 
 export default function HeartButton({ onClick }: HeartButtonProps) {
   return (
-    <S.Button type="button">
+    <S.Button type="button" onClick={onClick}>
       <HeartIcon />
     </S.Button>
   );

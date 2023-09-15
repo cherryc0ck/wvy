@@ -24,7 +24,7 @@ export default function HomeCategoryList({ list }: HomeCategoryListProps) {
       {list.map((item) => (
         <SwiperSlide key={item.name}>
           <S.Figure>
-            <Image src={item.src} fill={true} alt={item.name} />
+            <Image src={item.src} fill={true} sizes="100%" alt={item.name} />
             <HeartButton onClick={handleLikeItem} />
           </S.Figure>
         </SwiperSlide>

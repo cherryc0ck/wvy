@@ -11,8 +11,8 @@ type HomePostsProps = {
 export default function HomePosts({ posts, visiblePostCount }: HomePostsProps) {
   return (
     <S.Container>
-      {posts.slice(0, visiblePostCount).map((post) => (
-        <Post item={post} />
+      {posts.slice(0, visiblePostCount).map((post, idx) => (
+        <Post key={idx} item={post} />
       ))}
     </S.Container>
   );

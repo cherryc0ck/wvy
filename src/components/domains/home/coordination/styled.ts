@@ -4,7 +4,7 @@ import { Swiper } from "swiper/react";
 export const Section = styled.section`
   ${({ theme }) => css`
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 50px 0;
     background-color: ${theme.colors.mainBlack};
   `};
 `;
@@ -12,6 +12,7 @@ export const Section = styled.section`
 export const Title = styled.h2`
   ${({ theme }) => css`
     margin-bottom: 16px;
+    padding: 0 20px;
     ${theme.typo.head.sm};
     color: ${theme.colors.white};
   `};
@@ -22,6 +23,7 @@ export const CustomSwiper = styled(Swiper)`
     width: 100%;
     ${theme.flex.row("flex-start")};
     margin-bottom: 30px;
+    padding: 0 20px;
 
     .swiper-slide,
     .swiper-wrapper {
@@ -44,5 +46,6 @@ export const ButtonWrapper = styled.div`
     ${theme.flex.row("flex-start")};
     gap: 10px;
     margin-bottom: 40px;
+    padding: 0 20px;
   `};
 `;
