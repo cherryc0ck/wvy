@@ -12,10 +12,10 @@ export const CustomSwiper = styled(Swiper)`
     width: 100%;
     ${theme.flex.row("flex-start")};
 
-    .swiper-slide,
     .swiper-wrapper {
-      width: 360px;
-      height: 480px;
+      min-width: 360px;
+      width: 100%;
+      max-width: 648px;
     }
   `};
 `;
@@ -23,8 +23,8 @@ export const CustomSwiper = styled(Swiper)`
 export const Figure = styled.figure`
   ${({ theme }) => css`
     position: relative;
+    width: 100%;
     height: 480px;
-    aspect-ratio: 360/480;
   `};
 `;
 

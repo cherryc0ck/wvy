@@ -12,7 +12,7 @@ export default function HomeCoordination() {
     codyThemeList,
     currentTheme,
     handleChangeTheme,
-    handleAddCody,
+    handleGoShowRoom,
   } = useCoordination();
 
   return (
@@ -31,7 +31,7 @@ export default function HomeCoordination() {
         ))}
       </S.ButtonWrapper>
       <S.CustomSwiper slidesPerView={"auto"} spaceBetween={10}>
-        {codyList.today.map((item) => (
+        {codyList.map((item) => (
           <SwiperSlide key={item.name}>
             <S.Figure>
               <Image src={item.src} fill={true} sizes="100%" alt={item.name} />
@@ -39,7 +39,11 @@ export default function HomeCoordination() {
           </SwiperSlide>
         ))}
       </S.CustomSwiper>
-      <MoreButton isDisabled={false} themeMode="dark" onClick={handleAddCody} />
+      <MoreButton
+        isDisabled={false}
+        themeMode="dark"
+        onClick={handleGoShowRoom}
+      />
     </S.Section>
   );
 }

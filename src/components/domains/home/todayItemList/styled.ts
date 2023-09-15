@@ -3,7 +3,7 @@ import { Swiper } from "swiper/react";
 
 export const Section = styled.section`
   ${({ theme }) => css`
-    margin: 50px 20px 40px 20px;
+    margin: 50px 0 40px 0;
   `};
 `;
 
@@ -11,6 +11,7 @@ export const Date = styled.time`
   ${({ theme }) => css`
     display: block;
     margin-bottom: 30px;
+    padding: 0 20px;
     ${theme.typo.head.sm};
     color: ${theme.colors.black};
   `};
@@ -20,6 +21,7 @@ export const CustomSwiper = styled(Swiper)`
   ${({ theme }) => css`
     width: 100%;
     ${theme.flex.row("flex-start")};
+    padding: 0 20px;
 
     .swiper-slide,
     .swiper-wrapper {

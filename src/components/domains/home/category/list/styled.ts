@@ -5,6 +5,7 @@ export const CustomSwiper = styled(Swiper)`
   ${({ theme }) => css`
     ${theme.flex.row("flex-start")};
     width: 100%;
+    padding: 0 20px;
 
     .swiper-slide,
     .swiper-wrapper {

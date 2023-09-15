@@ -22,8 +22,11 @@ export default function BannerSlide({
   return (
     <S.Section>
       <S.CustomSwiper
+        loop={true}
+        centeredSlides={true}
         slidesPerView={"auto"}
-        onSlideChange={(slide) => onSlideChange(slide.activeIndex)}
+        spaceBetween={0}
+        onSlideChange={(slide) => onSlideChange(slide.realIndex)}
       >
         {bannerList.map((item) => (
           <SwiperSlide key={item.brand}>
