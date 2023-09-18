@@ -26,7 +26,7 @@ export default function BrandButton({
       onClick={() => onSelectBrand(name)}
     >
       <S.Figure>
-        <Image src={imgSrc} alt={label} fill priority />
+        <Image src={imgSrc} alt={label} fill priority sizes="100%" />
       </S.Figure>
       <span>{label}</span>
     </S.Button>

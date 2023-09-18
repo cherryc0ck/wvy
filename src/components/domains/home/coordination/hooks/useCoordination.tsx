@@ -11,166 +11,166 @@ type Cody = {
 };
 
 const CODY_LIST: CodyListType = {
-  today: [
+  crew: [
     {
-      src: "/images/home/cody/cody-today1.jpg",
-      name: "today1",
+      src: "/images/showroom/cody/crew/1million1.png",
+      name: "1million1",
     },
     {
-      src: "/images/home/cody/cody-today2.jpg",
-      name: "today2",
+      src: "/images/showroom/cody/crew/1million2.png",
+      name: "1million2",
     },
     {
-      src: "/images/home/cody/cody-today3.jpg",
-      name: "today3",
+      src: "/images/showroom/cody/crew/1million3.png",
+      name: "1million3",
     },
     {
-      src: "/images/home/cody/cody-today4.jpg",
-      name: "today4",
+      src: "/images/showroom/cody/crew/1million4.png",
+      name: "1million4",
     },
     {
-      src: "/images/home/cody/cody-today5.jpg",
-      name: "today5",
+      src: "/images/showroom/cody/crew/1million5.png",
+      name: "1million5",
     },
     {
-      src: "/images/home/cody/cody-today6.jpg",
-      name: "today6",
+      src: "/images/showroom/cody/crew/1million6.png",
+      name: "1million6",
     },
     {
-      src: "/images/home/cody/cody-today7.jpg",
-      name: "today7",
+      src: "/images/showroom/cody/crew/1million7.png",
+      name: "1million7",
     },
     {
-      src: "/images/home/cody/cody-today8.jpg",
-      name: "today8",
+      src: "/images/showroom/cody/crew/1million8.png",
+      name: "1million8",
     },
     {
-      src: "/images/home/cody/cody-today9.jpg",
-      name: "today9",
+      src: "/images/showroom/cody/crew/1million9.png",
+      name: "1million9",
     },
     {
-      src: "/images/home/cody/cody-today10.jpg",
-      name: "today10",
+      src: "/images/showroom/cody/crew/1million10.png",
+      name: "1million10",
     },
     {
-      src: "/images/home/cody/cody-today11.jpg",
-      name: "today11",
+      src: "/images/showroom/cody/crew/1million11.png",
+      name: "1million11",
     },
     {
-      src: "/images/home/cody/cody-today12.jpg",
-      name: "today12",
+      src: "/images/showroom/cody/crew/1million12.png",
+      name: "1million12",
     },
   ],
-  weekend: [
+  hot: [
     {
-      src: "/images/home/cody/cody-week1.jpg",
-      name: "week1",
+      src: "/images/showroom/cody/hot/cargoPants1.png",
+      name: "cargoPants1",
     },
     {
-      src: "/images/home/cody/cody-week2.jpg",
-      name: "week2",
+      src: "/images/showroom/cody/hot/cargoPants2.png",
+      name: "cargoPants2",
     },
     {
-      src: "/images/home/cody/cody-week3.jpg",
-      name: "week3",
+      src: "/images/showroom/cody/hot/cargoPants3.png",
+      name: "cargoPants3",
     },
     {
-      src: "/images/home/cody/cody-week4.jpg",
-      name: "week4",
+      src: "/images/showroom/cody/hot/cargoPants4.png",
+      name: "cargoPants4",
     },
     {
-      src: "/images/home/cody/cody-week5.jpg",
-      name: "week5",
+      src: "/images/showroom/cody/hot/tubeTop1.png",
+      name: "tubeTop1",
     },
     {
-      src: "/images/home/cody/cody-week6.jpg",
-      name: "week6",
+      src: "/images/showroom/cody/hot/tubeTop2.png",
+      name: "tubeTop2",
     },
     {
-      src: "/images/home/cody/cody-week7.jpg",
-      name: "week7",
+      src: "/images/showroom/cody/hot/tubeTop3.png",
+      name: "tubeTop3",
     },
     {
-      src: "/images/home/cody/cody-week8.jpg",
-      name: "week8",
+      src: "/images/showroom/cody/hot/tubeTop4.png",
+      name: "tubeTop4",
     },
     {
-      src: "/images/home/cody/cody-week9.jpg",
-      name: "week9",
+      src: "/images/showroom/cody/hot/hoodie1.png",
+      name: "hoodie1",
     },
     {
-      src: "/images/home/cody/cody-week10.jpg",
-      name: "week10",
+      src: "/images/showroom/cody/hot/hoodie2.png",
+      name: "hoodie2",
     },
     {
-      src: "/images/home/cody/cody-week11.jpg",
-      name: "week11",
+      src: "/images/showroom/cody/hot/hoodie3.png",
+      name: "hoodie3",
     },
     {
-      src: "/images/home/cody/cody-week12.jpg",
-      name: "week12",
+      src: "/images/showroom/cody/hot/hoodie4.png",
+      name: "hoodie4",
     },
   ],
   popular: [
     {
-      src: "/images/home/cody/cody-popular1.jpg",
-      name: "popular1",
+      src: "/images/showroom/cody/popularBrand/dunst1.jpg",
+      name: "dunst1",
     },
     {
-      src: "/images/home/cody/cody-popular2.jpg",
-      name: "popular2",
+      src: "/images/showroom/cody/popularBrand/dunst2.jpg",
+      name: "dunst2",
     },
     {
-      src: "/images/home/cody/cody-popular3.jpg",
-      name: "popular3",
+      src: "/images/showroom/cody/popularBrand/dunst3.jpg",
+      name: "dunst3",
     },
     {
-      src: "/images/home/cody/cody-popular4.jpg",
-      name: "popular4",
+      src: "/images/showroom/cody/popularBrand/general1.jpg",
+      name: "general1",
     },
     {
-      src: "/images/home/cody/cody-popular5.jpg",
-      name: "popular5",
+      src: "/images/showroom/cody/popularBrand/general2.jpg",
+      name: "general2",
     },
     {
-      src: "/images/home/cody/cody-popular6.jpg",
-      name: "popular6",
+      src: "/images/showroom/cody/popularBrand/general3.jpg",
+      name: "general3",
     },
     {
-      src: "/images/home/cody/cody-popular7.jpg",
-      name: "popular7",
+      src: "/images/showroom/cody/popularBrand/siyazu1.jpg",
+      name: "siyazu1",
     },
     {
-      src: "/images/home/cody/cody-popular8.jpg",
-      name: "popular8",
+      src: "/images/showroom/cody/popularBrand/siyazu2.jpg",
+      name: "siyazu2",
     },
     {
-      src: "/images/home/cody/cody-popular9.jpg",
-      name: "popular9",
+      src: "/images/showroom/cody/popularBrand/siyazu3.jpg",
+      name: "siyazu3",
     },
     {
-      src: "/images/home/cody/cody-popular10.jpg",
-      name: "popular10",
+      src: "/images/showroom/cody/popularBrand/diagonal1.jpg",
+      name: "diagonal1",
     },
     {
-      src: "/images/home/cody/cody-popular11.jpg",
-      name: "popular11",
+      src: "/images/showroom/cody/popularBrand/diagonal2.jpg",
+      name: "diagonal2",
     },
     {
-      src: "/images/home/cody/cody-popular12.jpg",
-      name: "popular12",
+      src: "/images/showroom/cody/popularBrand/diagonal3.jpg",
+      name: "diagonal3",
     },
   ],
 };
 
 export const CODY_THEME_LIST = [
   {
-    label: "오늘 뭐 입지",
-    theme: "today",
+    label: "크루",
+    theme: "crew",
   },
   {
-    label: "주말에 뭐 입지",
-    theme: "weekend",
+    label: "핫 아이템",
+    theme: "hot",
   },
   {
     label: "인기 브랜드",
@@ -187,7 +187,7 @@ export default function useCoordination() {
   };
 
   const handleGoShowRoom = () => {
-    router.push("/showRoom");
+    router.push("/showroom");
   };
 
   return {

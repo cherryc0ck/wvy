@@ -15,9 +15,6 @@ export default function HomeCategory() {
         onChangeMenu={handleChangeMenu}
       />
       <S.CategoryListWrapper>
-        {currentMenu === "NEW IN" && (
-          <HomeCategoryList list={categoryList.new} />
-        )}
         {currentMenu === "의류" && (
           <HomeCategoryList list={categoryList.clothes} />
         )}

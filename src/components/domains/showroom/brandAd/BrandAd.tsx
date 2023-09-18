@@ -21,6 +21,7 @@ export default function BrandAd() {
       <S.BrandButtonWrapper>
         {brands.map((brand) => (
           <BrandButton
+            key={brand.name}
             isSelected={true}
             mode="light"
             imgSrc={brand.src}

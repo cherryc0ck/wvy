@@ -30,7 +30,7 @@ export default function EditorNote() {
               <h3>{item.label}</h3>
               <S.ThemeWrapper>
                 {item.theme.map((v) => (
-                  <ThemeTag value={v} />
+                  <ThemeTag key={v} value={v} />
                 ))}
               </S.ThemeWrapper>
             </S.ItemDesc>

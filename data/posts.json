@@ -1,91 +1,61 @@
 {
   "홈": [
     {
-      "mainImg": "/images/common/post/home/post-main-home1.jpg",
+      "mainImg": "/images/home/post/home/main-monica.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home1.jpg",
-        "/images/common/post/home/post-sub-home2.jpg",
-        "/images/common/post/home/post-sub-home3.jpg",
-        "/images/common/post/home/post-sub-home4.jpg"
+        "/images/home/post/home/sub-monica1.png",
+        "/images/home/post/home/sub-monica2.png"
       ],
-      "theme": "신제품",
-      "title": "취향 가전으로 채우는 공간",
-      "content": "네스프레소, 시티즈 플래티넘 D10 출시 전 미리 만나보세요.",
-      "tags": ["신제품", "선주문", "마일드 기능"]
+      "theme": "룩북",
+      "title": "모니카, 심사평만큼 멋있는 룩북",
+      "content": "미션마다 기준이 달랐지만, 많은 시청자들이 모니카의 심사를 납득한 이유는 그 미션이 가진 의미를 이해하고 자세한 설명으로 풀어냈기 때문이다.",
+      "tags": ["스우파2", "K-POP미션", "모니카"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home2.jpg",
+      "mainImg": "/images/home/post/home/main-bebe.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home5.jpg",
-        "/images/common/post/home/post-sub-home6.jpg",
-        "/images/common/post/home/post-sub-home7.jpg",
-        "/images/common/post/home/post-sub-home8.jpg"
+        "/images/home/post/home/sub-bebe1.png",
+        "/images/home/post/home/sub-bebe2.png",
+        "/images/home/post/home/sub-bebe3.png"
       ],
-      "theme": "브랜드",
-      "title": "낙서를 디자인하는 소품샵",
-      "content": "키링 & 세라믹 신제품 출시를 기념하여 최대 30% 혜택을 누려보세요.",
-      "tags": ["키친", "인테리어 소품", "집들이 선물"]
+      "theme": "팀소개",
+      "title": "베베, 독특한 이력",
+      "content": "리더 이바다는 일명 ‘디귿 춤’으로 큰 화제가 되었던 에스파의 <넥스트 레벨>의 안무를 제작했어요. 이바다를 비롯해 소원, 러셔, 키마, 민아, 태터, 채채 총 7명의 멤버가 평균 연령이 가장 낮은 팀입니다.",
+      "tags": ["SM안무가", "이바다", "베베"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home3.jpg",
+      "mainImg": "/images/home/post/home/main-oneMilion.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home9.jpg",
-        "/images/common/post/home/post-sub-home10.jpg",
-        "/images/common/post/home/post-sub-home11.jpg",
-        "/images/common/post/home/post-sub-home12.jpg"
+        "/images/home/post/home/sub-oneMilion1.png",
+        "/images/home/post/home/sub-oneMilion2.png",
+        "/images/home/post/home/sub-oneMilion3.png"
       ],
-      "theme": "언니들 토크",
-      "title": "갤러리 느낌의 라운지 거실",
-      "content": "9월 구독자 홈터뷰, 인테리어 소품은 어디서 구매하세요?",
-      "tags": ["인테리어 소품", "샌드톤", "식물"]
+      "theme": "팀소개",
+      "title": "원밀리언, 올브랙 매력",
+      "content": "2천만 명이 넘는 유튜브 구독자 수를 자랑하는 원 밀리언! 수장 리아킴의 단발부터 레디의 히메컷도 확인해보세요.",
+      "tags": ["원밀리언", "리아킴", "올블랙"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home4.jpg",
+      "mainImg": "/images/home/post/home/main-wolf.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home13.jpg",
-        "/images/common/post/home/post-sub-home14.jpg",
-        "/images/common/post/home/post-sub-home15.jpg"
+        "/images/home/post/home/sub-wolf1.png",
+        "/images/home/post/home/sub-wolf2.png",
+        "/images/home/post/home/sub-wolf3.png"
       ],
-      "theme": "언니들 토크",
-      "title": "블랙톤의 홈 오피스",
-      "content": "9월 구독자 홈터뷰, 원룸에 큰 책상을 놓고싶다면?",
-      "tags": ["원룸", "홈오피스", "블랙톤"]
-    },
-    {
-      "mainImg": "/images/common/post/home/post-main-home5.jpg",
-      "subImg": [
-        "/images/common/post/home/post-sub-home16.jpg",
-        "/images/common/post/home/post-sub-home17.jpg",
-        "/images/common/post/home/post-sub-home18.jpg",
-        "/images/common/post/home/post-sub-home19.jpg"
-      ],
-      "theme": "언니들 토크",
-      "title": "고양이 순무의 추천 아이템",
-      "content": "간식부터 캣타워까지 국민 반려묘 아이템 정리!",
-      "tags": ["육포", "박스", "스트레치", "참치 퓨레"]
-    },
-    {
-      "mainImg": "/images/common/post/home/post-main-home6.jpg",
-      "subImg": [
-        "/images/common/post/home/post-sub-home20.jpg",
-        "/images/common/post/home/post-sub-home21.jpg",
-        "/images/common/post/home/post-sub-home22.jpg",
-        "/images/common/post/home/post-sub-home23.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "라튤립, 침대는 과학 침구는 감성",
-      "content": "포근한 침구가 가져오는 변화를 지금 만나보세요.",
-      "tags": ["사계절", "순면", "먼지 없는", "인테리어"]
+      "theme": "팀소개",
+      "title": "울플러, 통통튀는 스타일",
+      "content": "오리지널 정통 힙합 안무로 큰 화제인 울플러. 짜임새 있는 연출과 깔끔한 동선과 동작, 그리고 패션까지 많은 기대가 됩니다.",
+      "tags": ["울플러", "점퍼", "자켓"]
     }
   ],
   "뷰티": [
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty1.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty1.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty1.jpg",
-        "/images/common/post/beauty/post-sub-beauty2.jpg",
-        "/images/common/post/beauty/post-sub-beauty3.jpg",
-        "/images/common/post/beauty/post-sub-beauty4.jpg"
+        "/images/home/post/beauty/post-sub-beauty1.jpg",
+        "/images/home/post/beauty/post-sub-beauty2.jpg",
+        "/images/home/post/beauty/post-sub-beauty3.jpg",
+        "/images/home/post/beauty/post-sub-beauty4.jpg"
       ],
       "theme": "신제품",
       "title": "피부를 위한 한의학, 23 라인 출시",
@@ -93,12 +63,12 @@
       "tags": ["고보습", "항산화", "주름개선", "민감성"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty2.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty2.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty6.jpg",
-        "/images/common/post/beauty/post-sub-beauty7.jpg",
-        "/images/common/post/beauty/post-sub-beauty8.jpg",
-        "/images/common/post/beauty/post-sub-beauty9.jpg"
+        "/images/home/post/beauty/post-sub-beauty6.jpg",
+        "/images/home/post/beauty/post-sub-beauty7.jpg",
+        "/images/home/post/beauty/post-sub-beauty8.jpg",
+        "/images/home/post/beauty/post-sub-beauty9.jpg"
       ],
       "theme": "브랜드",
       "title": "시간에 따른 다섯 가지 향, SW19",
@@ -106,10 +76,10 @@
       "tags": ["향수", "핸드크림", "선물"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty3.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty3.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty12.jpg",
-        "/images/common/post/beauty/post-sub-beauty13.jpg"
+        "/images/home/post/beauty/post-sub-beauty12.jpg",
+        "/images/home/post/beauty/post-sub-beauty13.jpg"
       ],
       "theme": "브랜드",
       "title": "극건조, 아토피인들 다 모여!",
@@ -117,52 +87,26 @@
       "tags": ["극건조", "바디오일", "함유량"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty4.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty4.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty14.jpg",
-        "/images/common/post/beauty/post-sub-beauty15.jpg",
-        "/images/common/post/beauty/post-sub-beauty16.jpg",
-        "/images/common/post/beauty/post-sub-beauty17.jpg"
+        "/images/home/post/beauty/post-sub-beauty14.jpg",
+        "/images/home/post/beauty/post-sub-beauty15.jpg",
+        "/images/home/post/beauty/post-sub-beauty16.jpg",
+        "/images/home/post/beauty/post-sub-beauty17.jpg"
       ],
       "theme": "브랜드",
       "title": "비건으로 더 건강하게, 베이지크",
       "content": "그린 커피빈으로 피부 에너지를 채우는 비건 브랜드, 베이지크를 소개합니다.",
       "tags": ["민감성", "마스크", "에센스", "오일"]
-    },
-    {
-      "mainImg": "/images/common/post/beauty/post-main-beauty5.jpg",
-      "subImg": [
-        "/images/common/post/beauty/post-sub-beauty20.jpg",
-        "/images/common/post/beauty/post-sub-beauty21.jpg",
-        "/images/common/post/beauty/post-sub-beauty22.jpg",
-        "/images/common/post/beauty/post-sub-beauty23.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "노티프, 매일 탄탄한 나를 위한 이너뷰티",
-      "content": "몸 속부터 차오르는 건강함으로 기분 좋은 하루를 경험해보세요.",
-      "tags": ["이너뷰티", "콜라겐", "비타민", "효소"]
-    },
-    {
-      "mainImg": "/images/common/post/beauty/post-main-beauty6.jpg",
-      "subImg": [
-        "/images/common/post/beauty/post-sub-beauty26.jpg",
-        "/images/common/post/beauty/post-sub-beauty27.jpg",
-        "/images/common/post/beauty/post-sub-beauty28.jpg",
-        "/images/common/post/beauty/post-sub-beauty29.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "눈으로 보이는 변화",
-      "content": "입소문으로 유명해진 2주 탈모 탈출 두피 케어 아이템을 소개해요",
-      "tags": ["탈모", "예방", "쿨링", "각질제거"]
     }
   ],
   "레저": [
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure1.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure1.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure1.jpg",
-        "/images/common/post/leisure/post-sub-leisure2.jpg",
-        "/images/common/post/leisure/post-sub-leisure3.jpg"
+        "/images/home/post/leisure/post-sub-leisure1.jpg",
+        "/images/home/post/leisure/post-sub-leisure2.jpg",
+        "/images/home/post/leisure/post-sub-leisure3.jpg"
       ],
       "theme": "위시리스트",
       "title": "STYLE ON TOUR #Jeju",
@@ -170,11 +114,11 @@
       "tags": ["명절 연휴", "가을 바다", "원피스", "주얼리"]
     },
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure2.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure2.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure4.jpg",
-        "/images/common/post/leisure/post-sub-leisure5.jpg",
-        "/images/common/post/leisure/post-sub-leisure6.jpg"
+        "/images/home/post/leisure/post-sub-leisure4.jpg",
+        "/images/home/post/leisure/post-sub-leisure5.jpg",
+        "/images/home/post/leisure/post-sub-leisure6.jpg"
       ],
       "theme": "신제품",
       "title": "포스트제너럴 홈캠핑 라인 출시",
@@ -182,12 +126,12 @@
       "tags": ["식물", "가드닝", "그릴"]
     },
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure3.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure3.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure7.jpg",
-        "/images/common/post/leisure/post-sub-leisure8.jpg",
-        "/images/common/post/leisure/post-sub-leisure9.jpg",
-        "/images/common/post/leisure/post-sub-leisure10.jpg"
+        "/images/home/post/leisure/post-sub-leisure7.jpg",
+        "/images/home/post/leisure/post-sub-leisure8.jpg",
+        "/images/home/post/leisure/post-sub-leisure9.jpg",
+        "/images/home/post/leisure/post-sub-leisure10.jpg"
       ],
       "theme": "브랜드",
       "title": "지비에이치, 모노톤 피크닉",
@@ -195,129 +139,73 @@
       "tags": ["돗자리", "피크닉 매트", "장바구니", "피크닉 백"]
     },
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure4.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure4.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure13.jpg",
-        "/images/common/post/leisure/post-sub-leisure14.jpg",
-        "/images/common/post/leisure/post-sub-leisure15.jpg"
+        "/images/home/post/leisure/post-sub-leisure13.jpg",
+        "/images/home/post/leisure/post-sub-leisure14.jpg",
+        "/images/home/post/leisure/post-sub-leisure15.jpg"
       ],
       "theme": "언니들의 토크",
       "title": "러닝 크루가 정말 하고 싶어?",
       "content": "9월 구독자 인터뷰, 러닝 크루에서 썸을 탈 확률에 대하여.",
       "tags": ["러닝 장비", "정기적 모임", "남녀 성비", "마라톤"]
-    },
-    {
-      "mainImg": "/images/common/post/leisure/post-main-leisure5.jpg",
-      "subImg": [
-        "/images/common/post/leisure/post-sub-leisure16.jpg",
-        "/images/common/post/leisure/post-sub-leisure17.jpg",
-        "/images/common/post/leisure/post-sub-leisure18.jpg",
-        "/images/common/post/leisure/post-sub-leisure19.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "무브웜, 일상복으로서 요가복",
-      "content": "요가복이지만 일상복으로 더 자주 입어요. 물론 통기성과 신축성은 당연히 뛰어나구요.",
-      "tags": ["디자인", "말림없는", "신축성", "세탁 용이"]
-    },
-    {
-      "mainImg": "/images/common/post/leisure/post-main-leisure6.jpg",
-      "subImg": [
-        "/images/common/post/leisure/post-sub-leisure20.jpg",
-        "/images/common/post/leisure/post-sub-leisure21.jpg",
-        "/images/common/post/leisure/post-sub-leisure22.jpg",
-        "/images/common/post/leisure/post-sub-leisure23.jpg"
-      ],
-      "theme": "신제품",
-      "title": "하이브로우, 파도에 집중할 수 있도록.",
-      "content": "블랙테일 시리즈로 초보자도 쉽게 텐트를 준비할 수 있어요.",
-      "tags": ["돔 텐트", "경량 텐트", "캠핑 체어", "보온"]
     }
   ],
   "전체": [
     {
-      "mainImg": "/images/common/post/home/post-main-home1.jpg",
+      "mainImg": "/images/home/post/home/main-monica.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home1.jpg",
-        "/images/common/post/home/post-sub-home2.jpg",
-        "/images/common/post/home/post-sub-home3.jpg",
-        "/images/common/post/home/post-sub-home4.jpg"
+        "/images/home/post/home/sub-monica1.png",
+        "/images/home/post/home/sub-monica2.png"
       ],
-      "theme": "신제품",
-      "title": "취향 가전으로 채우는 공간",
-      "content": "네스프레소, 시티즈 플래티넘 D10 출시 전 미리 만나보세요.",
-      "tags": ["신제품", "선주문", "마일드 기능"]
+      "theme": "룩북",
+      "title": "모니카, 심사평만큼 멋있는 룩북",
+      "content": "미션마다 기준이 달랐지만, 많은 시청자들이 모니카의 심사를 납득한 이유는 그 미션이 가진 의미를 이해하고 자세한 설명으로 풀어냈기 때문이다.",
+      "tags": ["스우파2", "K-POP미션", "모니카"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home2.jpg",
+      "mainImg": "/images/home/post/home/main-bebe.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home5.jpg",
-        "/images/common/post/home/post-sub-home6.jpg",
-        "/images/common/post/home/post-sub-home7.jpg",
-        "/images/common/post/home/post-sub-home8.jpg"
+        "/images/home/post/home/sub-bebe1.png",
+        "/images/home/post/home/sub-bebe2.png",
+        "/images/home/post/home/sub-bebe3.png"
       ],
-      "theme": "브랜드",
-      "title": "낙서를 디자인하는 소품샵",
-      "content": "키링 & 세라믹 신제품 출시를 기념하여 최대 30% 혜택을 누려보세요.",
-      "tags": ["키친", "인테리어 소품", "집들이 선물"]
+      "theme": "팀소개",
+      "title": "베베, 독특한 이력",
+      "content": "리더 이바다는 일명 ‘디귿 춤’으로 큰 화제가 되었던 에스파의 <넥스트 레벨>의 안무를 제작했어요. 이바다를 비롯해 소원, 러셔, 키마, 민아, 태터, 채채 총 7명의 멤버가 평균 연령이 가장 낮은 팀입니다.",
+      "tags": ["SM안무가", "이바다", "베베"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home3.jpg",
+      "mainImg": "/images/home/post/home/main-oneMilion.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home9.jpg",
-        "/images/common/post/home/post-sub-home10.jpg",
-        "/images/common/post/home/post-sub-home11.jpg",
-        "/images/common/post/home/post-sub-home12.jpg"
+        "/images/home/post/home/sub-oneMilion1.png",
+        "/images/home/post/home/sub-oneMilion2.png",
+        "/images/home/post/home/sub-oneMilion3.png"
       ],
-      "theme": "언니들 토크",
-      "title": "갤러리 느낌의 라운지 거실",
-      "content": "9월 구독자 홈터뷰, 인테리어 소품은 어디서 구매하세요?",
-      "tags": ["인테리어 소품", "샌드톤", "식물"]
+      "theme": "팀소개",
+      "title": "원밀리언, 올브랙 매력",
+      "content": "2천만 명이 넘는 유튜브 구독자 수를 자랑하는 원 밀리언! 수장 리아킴의 단발부터 레디의 히메컷도 확인해보세요.",
+      "tags": ["원밀리언", "리아킴", "올블랙"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home4.jpg",
+      "mainImg": "/images/home/post/home/main-wolf.png",
       "subImg": [
-        "/images/common/post/home/post-sub-home13.jpg",
-        "/images/common/post/home/post-sub-home14.jpg",
-        "/images/common/post/home/post-sub-home15.jpg"
+        "/images/home/post/home/sub-wolf1.png",
+        "/images/home/post/home/sub-wolf2.png",
+        "/images/home/post/home/sub-wolf3.png"
       ],
-      "theme": "언니들 토크",
-      "title": "블랙톤의 홈 오피스",
-      "content": "9월 구독자 홈터뷰, 원룸에 큰 책상을 놓고싶다면?",
-      "tags": ["원룸", "홈오피스", "블랙톤"]
+      "theme": "팀소개",
+      "title": "울플러, 통통튀는 스타일",
+      "content": "오리지널 정통 힙합 안무로 큰 화제인 울플러. 짜임새 있는 연출과 깔끔한 동선과 동작, 그리고 패션까지 많은 기대가 됩니다.",
+      "tags": ["울플러", "점퍼", "자켓"]
     },
     {
-      "mainImg": "/images/common/post/home/post-main-home5.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty1.jpg",
       "subImg": [
-        "/images/common/post/home/post-sub-home16.jpg",
-        "/images/common/post/home/post-sub-home17.jpg",
-        "/images/common/post/home/post-sub-home18.jpg",
-        "/images/common/post/home/post-sub-home19.jpg"
-      ],
-      "theme": "언니들 토크",
-      "title": "고양이 순무의 추천 아이템",
-      "content": "간식부터 캣타워까지 국민 반려묘 아이템 정리!",
-      "tags": ["육포", "박스", "스트레치", "참치 퓨레"]
-    },
-    {
-      "mainImg": "/images/common/post/home/post-main-home6.jpg",
-      "subImg": [
-        "/images/common/post/home/post-sub-home20.jpg",
-        "/images/common/post/home/post-sub-home21.jpg",
-        "/images/common/post/home/post-sub-home22.jpg",
-        "/images/common/post/home/post-sub-home23.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "라튤립, 침대는 과학 침구는 감성",
-      "content": "포근한 침구가 가져오는 변화를 지금 만나보세요.",
-      "tags": ["사계절", "순면", "먼지 없는", "인테리어"]
-    },
-    {
-      "mainImg": "/images/common/post/beauty/post-main-beauty1.jpg",
-      "subImg": [
-        "/images/common/post/beauty/post-sub-beauty1.jpg",
-        "/images/common/post/beauty/post-sub-beauty2.jpg",
-        "/images/common/post/beauty/post-sub-beauty3.jpg",
-        "/images/common/post/beauty/post-sub-beauty4.jpg"
+        "/images/home/post/beauty/post-sub-beauty1.jpg",
+        "/images/home/post/beauty/post-sub-beauty2.jpg",
+        "/images/home/post/beauty/post-sub-beauty3.jpg",
+        "/images/home/post/beauty/post-sub-beauty4.jpg"
       ],
       "theme": "신제품",
       "title": "피부를 위한 한의학, 23 라인 출시",
@@ -325,12 +213,12 @@
       "tags": ["고보습", "항산화", "주름개선", "민감성"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty2.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty2.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty6.jpg",
-        "/images/common/post/beauty/post-sub-beauty7.jpg",
-        "/images/common/post/beauty/post-sub-beauty8.jpg",
-        "/images/common/post/beauty/post-sub-beauty9.jpg"
+        "/images/home/post/beauty/post-sub-beauty6.jpg",
+        "/images/home/post/beauty/post-sub-beauty7.jpg",
+        "/images/home/post/beauty/post-sub-beauty8.jpg",
+        "/images/home/post/beauty/post-sub-beauty9.jpg"
       ],
       "theme": "브랜드",
       "title": "시간에 따른 다섯 가지 향, SW19",
@@ -338,10 +226,10 @@
       "tags": ["향수", "핸드크림", "선물"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty3.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty3.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty12.jpg",
-        "/images/common/post/beauty/post-sub-beauty13.jpg"
+        "/images/home/post/beauty/post-sub-beauty12.jpg",
+        "/images/home/post/beauty/post-sub-beauty13.jpg"
       ],
       "theme": "브랜드",
       "title": "극건조, 아토피인들 다 모여!",
@@ -349,12 +237,12 @@
       "tags": ["극건조", "바디오일", "함유량"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty4.jpg",
+      "mainImg": "/images/home/post/beauty/post-main-beauty4.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty14.jpg",
-        "/images/common/post/beauty/post-sub-beauty15.jpg",
-        "/images/common/post/beauty/post-sub-beauty16.jpg",
-        "/images/common/post/beauty/post-sub-beauty17.jpg"
+        "/images/home/post/beauty/post-sub-beauty14.jpg",
+        "/images/home/post/beauty/post-sub-beauty15.jpg",
+        "/images/home/post/beauty/post-sub-beauty16.jpg",
+        "/images/home/post/beauty/post-sub-beauty17.jpg"
       ],
       "theme": "브랜드",
       "title": "비건으로 더 건강하게, 베이지크",
@@ -362,37 +250,11 @@
       "tags": ["민감성", "마스크", "에센스", "오일"]
     },
     {
-      "mainImg": "/images/common/post/beauty/post-main-beauty5.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure1.jpg",
       "subImg": [
-        "/images/common/post/beauty/post-sub-beauty20.jpg",
-        "/images/common/post/beauty/post-sub-beauty21.jpg",
-        "/images/common/post/beauty/post-sub-beauty22.jpg",
-        "/images/common/post/beauty/post-sub-beauty23.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "노티프, 매일 탄탄한 나를 위한 이너뷰티",
-      "content": "몸 속부터 차오르는 건강함으로 기분 좋은 하루를 경험해보세요.",
-      "tags": ["이너뷰티", "콜라겐", "비타민", "효소"]
-    },
-    {
-      "mainImg": "/images/common/post/beauty/post-main-beauty6.jpg",
-      "subImg": [
-        "/images/common/post/beauty/post-sub-beauty26.jpg",
-        "/images/common/post/beauty/post-sub-beauty27.jpg",
-        "/images/common/post/beauty/post-sub-beauty28.jpg",
-        "/images/common/post/beauty/post-sub-beauty29.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "눈으로 보이는 변화",
-      "content": "입소문으로 유명해진 2주 탈모 탈출 두피 케어 아이템을 소개해요",
-      "tags": ["탈모", "예방", "쿨링", "각질제거"]
-    },
-    {
-      "mainImg": "/images/common/post/leisure/post-main-leisure1.jpg",
-      "subImg": [
-        "/images/common/post/leisure/post-sub-leisure1.jpg",
-        "/images/common/post/leisure/post-sub-leisure2.jpg",
-        "/images/common/post/leisure/post-sub-leisure3.jpg"
+        "/images/home/post/leisure/post-sub-leisure1.jpg",
+        "/images/home/post/leisure/post-sub-leisure2.jpg",
+        "/images/home/post/leisure/post-sub-leisure3.jpg"
       ],
       "theme": "위시리스트",
       "title": "STYLE ON TOUR #Jeju",
@@ -400,11 +262,11 @@
       "tags": ["명절 연휴", "가을 바다", "원피스", "주얼리"]
     },
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure2.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure2.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure4.jpg",
-        "/images/common/post/leisure/post-sub-leisure5.jpg",
-        "/images/common/post/leisure/post-sub-leisure6.jpg"
+        "/images/home/post/leisure/post-sub-leisure4.jpg",
+        "/images/home/post/leisure/post-sub-leisure5.jpg",
+        "/images/home/post/leisure/post-sub-leisure6.jpg"
       ],
       "theme": "신제품",
       "title": "포스트제너럴 홈캠핑 라인 출시",
@@ -412,12 +274,12 @@
       "tags": ["식물", "가드닝", "그릴"]
     },
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure3.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure3.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure7.jpg",
-        "/images/common/post/leisure/post-sub-leisure8.jpg",
-        "/images/common/post/leisure/post-sub-leisure9.jpg",
-        "/images/common/post/leisure/post-sub-leisure10.jpg"
+        "/images/home/post/leisure/post-sub-leisure7.jpg",
+        "/images/home/post/leisure/post-sub-leisure8.jpg",
+        "/images/home/post/leisure/post-sub-leisure9.jpg",
+        "/images/home/post/leisure/post-sub-leisure10.jpg"
       ],
       "theme": "브랜드",
       "title": "지비에이치, 모노톤 피크닉",
@@ -425,42 +287,16 @@
       "tags": ["돗자리", "피크닉 매트", "장바구니", "피크닉 백"]
     },
     {
-      "mainImg": "/images/common/post/leisure/post-main-leisure4.jpg",
+      "mainImg": "/images/home/post/leisure/post-main-leisure4.jpg",
       "subImg": [
-        "/images/common/post/leisure/post-sub-leisure13.jpg",
-        "/images/common/post/leisure/post-sub-leisure14.jpg",
-        "/images/common/post/leisure/post-sub-leisure15.jpg"
+        "/images/home/post/leisure/post-sub-leisure13.jpg",
+        "/images/home/post/leisure/post-sub-leisure14.jpg",
+        "/images/home/post/leisure/post-sub-leisure15.jpg"
       ],
       "theme": "언니들의 토크",
       "title": "러닝 크루가 정말 하고 싶어?",
       "content": "9월 구독자 인터뷰, 러닝 크루에서 썸을 탈 확률에 대하여.",
       "tags": ["러닝 장비", "정기적 모임", "남녀 성비", "마라톤"]
-    },
-    {
-      "mainImg": "/images/common/post/leisure/post-main-leisure5.jpg",
-      "subImg": [
-        "/images/common/post/leisure/post-sub-leisure16.jpg",
-        "/images/common/post/leisure/post-sub-leisure17.jpg",
-        "/images/common/post/leisure/post-sub-leisure18.jpg",
-        "/images/common/post/leisure/post-sub-leisure19.jpg"
-      ],
-      "theme": "브랜드",
-      "title": "무브웜, 일상복으로서 요가복",
-      "content": "요가복이지만 일상복으로 더 자주 입어요. 물론 통기성과 신축성은 당연히 뛰어나구요.",
-      "tags": ["디자인", "말림없는", "신축성", "세탁 용이"]
-    },
-    {
-      "mainImg": "/images/common/post/leisure/post-main-leisure6.jpg",
-      "subImg": [
-        "/images/common/post/leisure/post-sub-leisure20.jpg",
-        "/images/common/post/leisure/post-sub-leisure21.jpg",
-        "/images/common/post/leisure/post-sub-leisure22.jpg",
-        "/images/common/post/leisure/post-sub-leisure23.jpg"
-      ],
-      "theme": "신제품",
-      "title": "하이브로우, 파도에 집중할 수 있도록.",
-      "content": "블랙테일 시리즈로 초보자도 쉽게 텐트를 준비할 수 있어요.",
-      "tags": ["돔 텐트", "경량 텐트", "캠핑 체어", "보온"]
     }
   ]
 }
