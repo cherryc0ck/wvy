@@ -1,69 +1,7 @@
 import React, { useState } from "react";
 
-const MENU_LIST = ["NEW IN", "의류", "가방", "주얼리"];
+const MENU_LIST = ["의류", "가방", "주얼리"];
 const CATEGORY_LIST = {
-  new: [
-    {
-      isLike: false,
-      src: "/images/home/category/category-new1.jpg",
-      name: "new1",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new2.jpg",
-      name: "new2",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new3.jpg",
-      name: "new3",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new4.jpg",
-      name: "new4",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new5.jpg",
-      name: "new5",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new6.jpg",
-      name: "new6",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new7.jpg",
-      name: "new7",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new8.jpg",
-      name: "new8",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new9.jpg",
-      name: "new9",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new10.jpg",
-      name: "new10",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new11.jpg",
-      name: "new11",
-    },
-    {
-      isLike: false,
-      src: "/images/home/category/category-new12.jpg",
-      name: "new12",
-    },
-  ],
   clothes: [
     {
       isLike: false,

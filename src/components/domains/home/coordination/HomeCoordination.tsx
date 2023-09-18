@@ -17,7 +17,7 @@ export default function HomeCoordination() {
 
   return (
     <S.Section>
-      <S.Title>릴레이 코디</S.Title>
+      <S.Title>스우파2 손민수템!</S.Title>
       <S.ButtonWrapper>
         {codyThemeList.map((item, index) => (
           <Button

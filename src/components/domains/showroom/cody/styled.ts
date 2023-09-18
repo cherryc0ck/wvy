@@ -3,7 +3,7 @@ import { Swiper } from "swiper/react";
 
 export const Section = styled.section`
   ${({ theme }) => css`
-    padding: 50px 0;
+    padding-bottom: 50px;
     background-color: ${theme.colors.mainBlack};
   `};
 `;
