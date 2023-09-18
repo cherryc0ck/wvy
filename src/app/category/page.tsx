@@ -1,13 +1,12 @@
 "use client";
 
-import { BestItems, CategoryItems } from "@/components/domains/category";
-import * as S from "./styled";
+import { BestItems, CategoryItems } from "@/components/domains";
 
 export default function CategoryPage() {
   return (
-    <S.Section>
+    <section>
       <BestItems />
       <CategoryItems />
-    </S.Section>
+    </section>
   );
 }

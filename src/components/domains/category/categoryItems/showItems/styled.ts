@@ -27,7 +27,7 @@ export const Item = styled.div`
 export const Figure = styled.figure`
   ${({ theme }) => css`
     position: relative;
-    min-width: 156px;
+    width: 100%;
     aspect-ratio: 156/200;
   `};
 `;
