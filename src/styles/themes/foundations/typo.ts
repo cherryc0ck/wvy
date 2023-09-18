@@ -25,6 +25,11 @@ export const typo = {
       font-weight: 500;
       line-height: 3.2rem;
     `,
+    lg2: () => css`
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 2.88rem;
+    `,
     md: () => css`
       font-size: 1.6rem;
       font-weight: 400;
