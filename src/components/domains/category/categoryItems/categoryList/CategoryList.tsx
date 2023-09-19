@@ -2,6 +2,7 @@ import { SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import * as S from "./styled";
+import { useEffect, useState } from "react";
 
 type CategoryListProps = {
   categoryList: Category[];
@@ -25,6 +26,22 @@ export default function CategoryList({
   onSelectCategory,
   onSelectKeyword,
 }: CategoryListProps) {
+  const [isSwiperEnabled, setIsSwiperEnabled] = useState(
+    window.innerWidth < 1024
+  );
+
+  useEffect(() => {
+    const handleWindowSizeChange = () => {
+      setIsSwiperEnabled(window.innerWidth < 1024);
+    };
+
+    window.addEventListener("resize", handleWindowSizeChange);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
   return (
     <S.Container>
       <S.CategoryList>
@@ -39,7 +56,7 @@ export default function CategoryList({
           </S.Category>
         ))}
       </S.CategoryList>
-      {currentCategory === "keyword" && (
+      {currentCategory === "keyword" && isSwiperEnabled && (
         <S.CustomSwiper slidesPerView={"auto"} spaceBetween={20}>
           {keywordList.map((item) => (
             <SwiperSlide key={item.name}>
@@ -52,6 +69,21 @@ export default function CategoryList({
             </SwiperSlide>
           ))}
         </S.CustomSwiper>
+      )}
+
+      {currentCategory === "keyword" && !isSwiperEnabled && (
+        <S.KeywordList>
+          {keywordList.map((item) => (
+            <li>
+              <S.KeywordButton
+                aria-selected={currentKeyword === item.name}
+                onClick={() => onSelectKeyword(item.name)}
+              >
+                {item.label}{" "}
+              </S.KeywordButton>
+            </li>
+          ))}
+        </S.KeywordList>
       )}
     </S.Container>
   );

@@ -1,29 +1,40 @@
-import { SwiperSlide } from "swiper/react";
 import Image from "next/image";
+import { SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { ChevronLeftIcon, ChevronRightIcon } from "@/assets/icons";
-import { HeartButton } from "@/components/common";
 import useBestItems from "../hooks/useBestItems";
 import * as S from "./styled";
 
 export default function BestItems() {
-  const { bestItemList, handleLikeItem } = useBestItems();
+  const {
+    activeIndex,
+    bestItemList,
+    swiperOption,
+    handleSlidePrev,
+    handleSlideNext,
+  } = useBestItems();
 
   return (
     <S.Section>
       <S.TitleButtonGroup>
         <S.Title>9월 첫주 BEST</S.Title>
         <S.SlideButtonWrapper>
-          <button>
+          <S.SlideButton
+            aria-disabled={activeIndex === 0 ? "true" : "false"}
+            onClick={handleSlidePrev}
+          >
             <ChevronLeftIcon />
-          </button>
-          <button>
+          </S.SlideButton>
+          <S.SlideButton
+            aria-disabled={activeIndex === 5 ? "true" : "false"}
+            onClick={handleSlideNext}
+          >
             <ChevronRightIcon />
-          </button>
+          </S.SlideButton>
         </S.SlideButtonWrapper>
       </S.TitleButtonGroup>
-      <S.CustomSwiper slidesPerView={"auto"} spaceBetween={10}>
+      <S.CustomSwiper {...swiperOption}>
         {bestItemList.map((item, idx) => (
           <SwiperSlide key={item.name}>
             <S.Figure>
@@ -37,7 +48,6 @@ export default function BestItems() {
               <S.Figcaption>
                 <span>{idx + 1}</span>
               </S.Figcaption>
-              <HeartButton onClick={handleLikeItem} />
             </S.Figure>
             <S.ItemDesc>
               <span>{item.brand}</span>

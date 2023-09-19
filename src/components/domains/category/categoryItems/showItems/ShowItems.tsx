@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { HeartButton, MoreButton } from "@/components/common";
+import { MoreButton } from "@/components/common";
 import * as S from "./styled";
 
 type ShowItemsProps = {
@@ -41,7 +41,6 @@ export default function ShowItems({
                   sizes="100%"
                   alt={item.name}
                 />
-                <HeartButton onClick={test} />
               </S.Figure>
               <S.ItemDesc>
                 <span>{item.brand}</span>
