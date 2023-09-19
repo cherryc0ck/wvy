@@ -40,7 +40,6 @@ export default function ShowRoomCody({
           <Button
             key={item.theme}
             isSelected={currentTheme === item.theme}
-            size="sm"
             mode="dark"
             label={item.label}
             onClick={() => onChangeTheme(item.theme)}

@@ -22,5 +22,9 @@ export const Container = styled.div<ContainerProps>`
       background-color: ${theme.colors.mainBlack};
       transition: left 0.2s ease-out;
     }
+
+    ${theme.media.tablet} {
+      display: none;
+    }
   `};
 `;

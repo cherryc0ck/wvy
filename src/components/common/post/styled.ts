@@ -3,6 +3,11 @@ import styled, { css } from "styled-components";
 export const Post = styled.article`
   ${({ theme }) => css`
     width: 100%;
+
+    ${theme.media.desktop} {
+      ${theme.flex.row("flex-start", "flex-start")};
+      gap: 24px;
+    }
   `};
 `;
 
@@ -12,6 +17,12 @@ export const Figure = styled.figure`
 
     aspect-ratio: 320/255;
     margin-bottom: 20px;
+
+    ${theme.media.desktop} {
+      width: 320px;
+      height: 480px;
+      margin-bottom: 0px;
+    }
   `};
 `;
 
@@ -32,6 +43,15 @@ export const Figcaption = styled.figcaption`
   `};
 `;
 
+export const DescWrapper = styled.div`
+  ${({ theme }) => css`
+    ${theme.media.desktop} {
+      ${theme.flex.col("space-between", "flex-start")};
+      height: 480px;
+    }
+  `};
+`;
+
 export const ItemDesc = styled.div`
   ${({ theme }) => css`
     ${theme.flex.col("center", "flex-start")};
@@ -46,6 +66,14 @@ export const ItemDesc = styled.div`
       ${theme.typo.body.md};
       color: ${theme.colors.gray600};
     }
+
+    ${theme.media.desktop} {
+      margin-bottom: 0px;
+
+      p {
+        margin-bottom: 30px;
+      }
+    }
   `};
 `;
 
@@ -53,6 +81,10 @@ export const TagWrapper = styled.div`
   ${({ theme }) => css`
     ${theme.flex.row("flex-start")};
     gap: 10px;
+
+    ${theme.media.desktop} {
+      gap: 8px;
+    }
   `};
 `;
 

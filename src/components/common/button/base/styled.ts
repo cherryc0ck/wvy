@@ -2,7 +2,6 @@ import type { ThemeMode } from "@/types/common";
 import styled, { css } from "styled-components";
 
 type ButtonProps = {
-  size: "sm" | "md" | "lg";
   mode: ThemeMode;
 };
 
@@ -12,28 +11,17 @@ export const Button = styled.button<ButtonProps>`
     letter-spacing: 0em;
     text-align: center;
     border: 1px solid transparent;
+    height: 28px;
+    padding: 0 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2.1rem;
 
-    /* 버튼 사이즈별 */
-    ${size === "sm" &&
-    css`
-      height: 28px;
-      padding: 0 8px;
-      font-size: 1.3rem;
-      font-weight: 600;
-      line-height: 2.1rem;
-    `}
-    ${size === "md" &&
-    css`
-      height: 32px;
-      padding: 0 10px;
-      ${theme.typo.body.md};
-    `};
-    ${size === "lg" &&
-    css`
+    ${theme.media.desktop} {
       height: 40px;
       padding: 0 10px;
       ${theme.typo.body.lg};
-    `};
+    }
 
     /* 다크, 라이트 모드 스타일 */
     ${mode === "light" &&

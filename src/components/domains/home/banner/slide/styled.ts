@@ -3,7 +3,12 @@ import styled, { css } from "styled-components";
 
 export const Section = styled.section`
   ${({ theme }) => css`
+    position: relative;
     margin-bottom: 20px;
+
+    ${theme.media.desktop} {
+      margin-bottom: 15px;
+    }
   `};
 `;
 
@@ -44,6 +49,40 @@ export const Figcaption = styled.figcaption`
     p {
       color: ${theme.colors.white};
       ${theme.typo.body.sm};
+    }
+
+    ${theme.media.desktop} {
+      h3 {
+        margin-bottom: 0px;
+      }
+    }
+  `};
+`;
+
+export const PrevButton = css`
+  ${({ theme }) => css`
+    display: none;
+    ${theme.media.tablet} {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      z-index: 1000;
+      transform: translate(0, -50%);
+    }
+  `};
+`;
+
+export const NextButton = css`
+  ${({ theme }) => css`
+    display: none;
+    ${theme.media.tablet} {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      z-index: 1000;
+      transform: translate(0, -50%);
     }
   `};
 `;
