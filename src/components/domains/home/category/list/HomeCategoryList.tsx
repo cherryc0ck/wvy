@@ -1,12 +1,9 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import { SwiperProps, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { useMediaQuery } from "react-responsive";
 
-import { HeartButton } from "@/components/common";
-import useLike from "@/hooks/useLike";
 import * as S from "./styled";
-import { useEffect, useState } from "react";
 
 type HomeCategoryListProps = {
   list: ListItems[];
