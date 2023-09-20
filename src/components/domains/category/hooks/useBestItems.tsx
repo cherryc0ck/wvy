@@ -68,15 +68,24 @@ const BEST_ITEM_LIST = [
 
 export default function useBestItems() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isEndSlide, setIsEndSlide] = useState(false);
+  const [isStartSlide, setIsStartSlide] = useState(true);
   const swiperRef = useRef<SwiperType | null>(null);
   const swiperOption: SwiperProps = {
     slidesPerView: "auto",
     spaceBetween: 10,
-    onSlideChange: (slide) => handleSlideChange(slide.realIndex),
+    onSlideChange: (slide) =>
+      handleSlideChange(slide.clickedIndex, slide.isBeginning, slide.isEnd),
     onInit: (swiper) => (swiperRef.current = swiper),
   };
 
-  const handleSlideChange = (activeIndex: number) => {
+  const handleSlideChange = (
+    activeIndex: number,
+    isBeginning: boolean,
+    isEnd: boolean
+  ) => {
+    isBeginning ? setIsStartSlide(true) : setIsStartSlide(false);
+    isEnd ? setIsEndSlide(true) : setIsEndSlide(false);
     setActiveIndex(activeIndex);
   };
 
@@ -89,6 +98,8 @@ export default function useBestItems() {
   };
 
   return {
+    isStartSlide,
+    isEndSlide,
     activeIndex,
     bestItemList: BEST_ITEM_LIST,
     swiperOption,

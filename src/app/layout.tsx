@@ -3,6 +3,7 @@ import { PropsWithChildren } from "react";
 
 import { AppProvider, StyledRegistry } from "@/lib";
 import { Header, Footer } from "@/components/layout";
+import { RecoilRoot } from "recoil";
 
 const pretendard = localFont({
   src: [

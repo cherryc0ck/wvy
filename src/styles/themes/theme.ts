@@ -1,7 +1,8 @@
 import { colors, zIndex, flex, typo, media, a11y } from "./foundations";
-import { button } from "./components";
+import { button, themeMode } from "./components";
 
 export const theme = {
+  themeMode,
   button,
   zIndex,
   flex,

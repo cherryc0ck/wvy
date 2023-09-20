@@ -20,12 +20,20 @@ export const Button = styled.button<ButtonProps>`
     css`
       border: 1px solid ${theme.colors.gray600};
       color: ${theme.colors.gray100};
+
+      :hover {
+        background-color: ${theme.colors.gray900};
+      }
     `};
 
     ${themeMode === "light" &&
     css`
       border: 1px solid ${theme.colors.black};
       color: ${theme.colors.black};
+
+      :hover {
+        background-color: ${theme.colors.gray100};
+      }
     `}
   `};
 `;

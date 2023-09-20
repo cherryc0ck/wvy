@@ -26,12 +26,11 @@ export default function CategoryList({
   onSelectCategory,
   onSelectKeyword,
 }: CategoryListProps) {
-  const [isSwiperEnabled, setIsSwiperEnabled] = useState(
-    window.innerWidth < 1024
-  );
+  const [isSwiperEnabled, setIsSwiperEnabled] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      setIsSwiperEnabled(window.innerWidth < 1024);
       const handleWindowSizeChange = () => {
         setIsSwiperEnabled(window.innerWidth < 1024);
       };

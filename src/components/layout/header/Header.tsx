@@ -1,17 +1,33 @@
 "use client";
 
 import { useState } from "react";
+import { useRecoilState } from "recoil";
 import Link from "next/link";
 
-import { CloseIcon, HamburgerIcon, LogoIcon } from "@/assets/icons";
+import {
+  CloseIcon,
+  HamburgerIcon,
+  LogoIcon,
+  WhiteLogoIcon,
+} from "@/assets/icons";
+import { ThemeFlag, themeState } from "@/stores/theme";
 import * as S from "./styled";
 
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [theme, setTheme] = useRecoilState(themeState);
   const handleToggleMenu = () => {
     setToggleMenu(!toggleMenu);
   };
 
+  const handleClick = () => {
+    if (theme === ThemeFlag.light) {
+      setTheme(ThemeFlag.dark);
+    } else {
+      setTheme(ThemeFlag.light);
+    }
+  };
+  theme;
   return (
     <S.Header>
       <h1>

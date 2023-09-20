@@ -85,7 +85,6 @@ export const KeywordButton = styled.button`
 
     &[aria-selected="true"] {
       color: ${theme.colors.mainBlack};
-      border-bottom: 1px solid ${theme.colors.mainBlack};
     }
 
     ${theme.media.desktop} {
