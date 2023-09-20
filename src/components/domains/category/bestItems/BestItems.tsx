@@ -8,6 +8,8 @@ import * as S from "./styled";
 
 export default function BestItems() {
   const {
+    isStartSlide,
+    isEndSlide,
     activeIndex,
     bestItemList,
     swiperOption,
@@ -21,13 +23,13 @@ export default function BestItems() {
         <S.Title>9월 첫주 BEST</S.Title>
         <S.SlideButtonWrapper>
           <S.SlideButton
-            aria-disabled={activeIndex === 0 ? "true" : "false"}
+            aria-disabled={isStartSlide ? "true" : "false"}
             onClick={handleSlidePrev}
           >
             <ChevronLeftIcon />
           </S.SlideButton>
           <S.SlideButton
-            aria-disabled={activeIndex === 5 ? "true" : "false"}
+            aria-disabled={isEndSlide ? "true" : "false"}
             onClick={handleSlideNext}
           >
             <ChevronRightIcon />

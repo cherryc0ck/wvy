@@ -1,3 +1,4 @@
+import { LogoIcon, WhiteLogoIcon } from "@/assets/icons";
 import styled, { css } from "styled-components";
 
 export const Header = styled.header`
@@ -5,8 +6,9 @@ export const Header = styled.header`
     ${theme.flex.row("space-between", "center")};
     width: 100%;
     padding: 16px 20px;
-
-    background-color: ${theme.colors.white};
+    background-color: ${theme.themeMode === "light"
+      ? theme.colors.white
+      : theme.colors.mainBlack};
 
     h1 {
       width: 18px;
@@ -35,7 +37,10 @@ export const MobileNav = styled.nav`
     left: 0;
     z-index: ${theme.zIndex.modal};
     width: 100%;
-    background-color: ${theme.colors.white};
+
+    background-color: ${theme.themeMode === "light"
+      ? theme.colors.white
+      : theme.colors.gray900};
 
     ul {
       ${theme.flex.col()};
@@ -44,7 +49,10 @@ export const MobileNav = styled.nav`
 
     ul li {
       width: 100%;
-      border-bottom: 1px solid ${theme.colors.gray300};
+      border-bottom: 1px solid
+        ${theme.themeMode === "light"
+          ? theme.colors.gray300
+          : theme.colors.gray800};
     }
 
     ul li a {
@@ -52,7 +60,10 @@ export const MobileNav = styled.nav`
       width: 100%;
       padding: 20px 0;
       ${theme.typo.body.lg};
-      color: ${theme.colors.mainBlack};
+      color: ${theme.themeMode === "light"
+        ? theme.colors.mainBlack
+        : theme.colors.white};
+
       text-align: center;
     }
 
@@ -75,7 +86,9 @@ export const DesktopNav = styled.nav`
 
       ul li a {
         ${theme.typo.body.md};
-        color: ${theme.colors.black};
+        color: ${theme.themeMode === "light"
+          ? theme.colors.black
+          : theme.colors.white};
       }
     }
   `};
@@ -87,11 +100,17 @@ export const MenuButton = styled.button`
     svg {
       width: 32px;
       height: 32px;
-      stroke: ${theme.colors.black};
+      stroke: ${theme.themeMode === "light"
+        ? theme.colors.black
+        : theme.colors.white};
     }
 
     ${theme.media.tablet} {
       display: none;
     }
   `};
+`;
+
+export const Logo = styled(WhiteLogoIcon)`
+  ${({ theme }) => css``};
 `;

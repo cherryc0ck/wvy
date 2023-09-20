@@ -15,12 +15,12 @@ export default function CategoryItems() {
     getKeywordItemsProps,
   } = useCategoryItems();
 
-  const DynamicCategoryList = dynamic(
-    () => import("./categoryList/CategoryList"),
-    {
-      ssr: false, // 서버 사이드 렌더링 중에는 로드하지 않음
-    }
-  );
+  // const DynamicCategoryList = dynamic(
+  //   () => import("./categoryList/CategoryList"),
+  //   {
+  //     ssr: false, // 서버 사이드 렌더링 중에는 로드하지 않음
+  //   }
+  // );
 
   return (
     <S.Section>
@@ -33,7 +33,7 @@ export default function CategoryItems() {
             name="brand"
             {...getSearchInputProps()}
           />
-          <DynamicCategoryList {...getCategoryListProps()} />
+          <CategoryList {...getCategoryListProps()} />
         </S.SearchListGroup>
         {currentCategory === "all" ? (
           <ShowItems {...getAllItemsProps()} />
