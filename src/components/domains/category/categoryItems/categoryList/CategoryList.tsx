@@ -31,15 +31,17 @@ export default function CategoryList({
   );
 
   useEffect(() => {
-    const handleWindowSizeChange = () => {
-      setIsSwiperEnabled(window.innerWidth < 1024);
-    };
+    if (typeof window !== "undefined") {
+      const handleWindowSizeChange = () => {
+        setIsSwiperEnabled(window.innerWidth < 1024);
+      };
 
-    window.addEventListener("resize", handleWindowSizeChange);
+      window.addEventListener("resize", handleWindowSizeChange);
 
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange);
-    };
+      return () => {
+        window.removeEventListener("resize", handleWindowSizeChange);
+      };
+    }
   }, []);
 
   return (
