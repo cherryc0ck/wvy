@@ -22,7 +22,7 @@ export default function BrandAd() {
         {brands.map((brand) => (
           <BrandButton
             key={brand.name}
-            isSelected={true}
+            isSelected={brand.name === currentBrand}
             mode="light"
             imgSrc={brand.src}
             label={brand.label}

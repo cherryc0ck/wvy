@@ -4,6 +4,7 @@ import * as S from "./styled";
 
 export default function CodyContainer() {
   const { getCrewList, getHotItemList, getPopularBrand } = useCody();
+
   return (
     <S.Section>
       <ShowRoomCody {...getCrewList()} />
