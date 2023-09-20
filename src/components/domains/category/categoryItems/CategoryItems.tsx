@@ -3,6 +3,7 @@ import CategoryList from "./categoryList/CategoryList";
 import ShowItems from "./showItems/ShowItems";
 import useCategoryItems from "../hooks/useCategoryItems";
 import * as S from "./styled";
+import dynamic from "next/dynamic";
 
 export default function CategoryItems() {
   const {
@@ -13,6 +14,14 @@ export default function CategoryItems() {
     getCategoryItemsProps,
     getKeywordItemsProps,
   } = useCategoryItems();
+
+  const DynamicCategoryList = dynamic(
+    () => import("./categoryList/CategoryList"),
+    {
+      ssr: false, // 서버 사이드 렌더링 중에는 로드하지 않음
+    }
+  );
+
   return (
     <S.Section>
       <S.Title>Category</S.Title>
@@ -24,7 +33,7 @@ export default function CategoryItems() {
             name="brand"
             {...getSearchInputProps()}
           />
-          <CategoryList {...getCategoryListProps()} />
+          <DynamicCategoryList {...getCategoryListProps()} />
         </S.SearchListGroup>
         {currentCategory === "all" ? (
           <ShowItems {...getAllItemsProps()} />
