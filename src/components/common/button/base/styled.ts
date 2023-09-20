@@ -6,7 +6,7 @@ type ButtonProps = {
 };
 
 export const Button = styled.button<ButtonProps>`
-  ${({ theme, size, mode }) => css`
+  ${({ theme, mode }) => css`
     ${theme.flex.row()};
     letter-spacing: 0em;
     text-align: center;
