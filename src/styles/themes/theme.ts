@@ -1,4 +1,4 @@
-import { colors, zIndex, flex, typo, responsive, a11y } from "./foundations";
+import { colors, zIndex, flex, typo, media, a11y } from "./foundations";
 import { button } from "./components";
 
 export const theme = {
@@ -7,6 +7,6 @@ export const theme = {
   flex,
   colors,
   typo,
-  responsive,
+  media,
   a11y,
 };

@@ -9,12 +9,13 @@ export default function HomeCategory() {
 
   return (
     <S.Section>
-      <HomeMenuList
-        list={menuList}
-        currentMenu={currentMenu}
-        onChangeMenu={handleChangeMenu}
-      />
-      <S.CategoryListWrapper>
+      <S.Title>NEW IN</S.Title>
+      <S.CategoryContainer>
+        <HomeMenuList
+          list={menuList}
+          currentMenu={currentMenu}
+          onChangeMenu={handleChangeMenu}
+        />
         {currentMenu === "의류" && (
           <HomeCategoryList list={categoryList.clothes} />
         )}
@@ -22,7 +23,7 @@ export default function HomeCategory() {
         {currentMenu === "주얼리" && (
           <HomeCategoryList list={categoryList.jewelry} />
         )}
-      </S.CategoryListWrapper>
+      </S.CategoryContainer>
     </S.Section>
   );
 }

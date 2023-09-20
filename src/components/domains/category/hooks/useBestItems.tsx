@@ -1,3 +1,8 @@
+import { useRef, useState } from "react";
+import { SwiperProps } from "swiper/react";
+import "swiper/css";
+import type { Swiper as SwiperType } from "swiper";
+
 const BEST_ITEM_LIST = [
   {
     isLike: false,
@@ -62,11 +67,32 @@ const BEST_ITEM_LIST = [
 ];
 
 export default function useBestItems() {
-  const handleLikeItem = () => {
-    console.log("작업중");
+  const [activeIndex, setActiveIndex] = useState(0);
+  const swiperRef = useRef<SwiperType | null>(null);
+  const swiperOption: SwiperProps = {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    onSlideChange: (slide) => handleSlideChange(slide.realIndex),
+    onInit: (swiper) => (swiperRef.current = swiper),
   };
+
+  const handleSlideChange = (activeIndex: number) => {
+    setActiveIndex(activeIndex);
+  };
+
+  const handleSlidePrev = () => {
+    swiperRef.current?.slidePrev();
+  };
+
+  const handleSlideNext = () => {
+    swiperRef.current?.slideNext();
+  };
+
   return {
+    activeIndex,
     bestItemList: BEST_ITEM_LIST,
-    handleLikeItem,
+    swiperOption,
+    handleSlidePrev,
+    handleSlideNext,
   };
 }

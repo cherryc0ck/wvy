@@ -12,15 +12,17 @@ export default function HomeMenuList({
   onChangeMenu,
 }: HomeMenuListProps) {
   return (
-    <S.List>
-      {list.map((item) => (
-        <S.ListItem
-          key={item}
-          aria-selected={currentMenu === item ? "true" : "false"}
-        >
-          <button onClick={() => onChangeMenu(item)}>{item}</button>
-        </S.ListItem>
-      ))}
-    </S.List>
+    <S.Container>
+      <S.List>
+        {list.map((item) => (
+          <S.ListItem
+            key={item}
+            aria-selected={currentMenu === item ? "true" : "false"}
+          >
+            <button onClick={() => onChangeMenu(item)}>{item}</button>
+          </S.ListItem>
+        ))}
+      </S.List>
+    </S.Container>
   );
 }

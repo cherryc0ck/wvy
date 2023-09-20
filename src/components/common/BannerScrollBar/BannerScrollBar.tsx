@@ -1,12 +1,16 @@
 import * as S from "./styled";
 
 type BannerScrollBarProps = {
+  className?: string;
   activeIndex: number;
 };
 
-export default function BannerScrollBar({ activeIndex }: BannerScrollBarProps) {
+export default function BannerScrollBar({
+  className = "",
+  activeIndex,
+}: BannerScrollBarProps) {
   return (
-    <S.Container activeIndex={activeIndex}>
+    <S.Container className={className} activeIndex={activeIndex}>
       <span />
     </S.Container>
   );

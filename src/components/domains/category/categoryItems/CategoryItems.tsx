@@ -15,20 +15,25 @@ export default function CategoryItems() {
   } = useCategoryItems();
   return (
     <S.Section>
-      <SearchInput
-        css={S.InputStyles}
-        placeholder="브랜드명을 검색하세요."
-        name="brand"
-        {...getSearchInputProps()}
-      />
-      <CategoryList {...getCategoryListProps()} />
-      {currentCategory === "all" ? (
-        <ShowItems {...getAllItemsProps()} />
-      ) : currentCategory === "keyword" ? (
-        <ShowItems {...getKeywordItemsProps()} />
-      ) : (
-        <ShowItems {...getCategoryItemsProps()} />
-      )}
+      <S.Title>Category</S.Title>
+      <S.Wrapper>
+        <S.SearchListGroup>
+          <SearchInput
+            css={S.InputStyles}
+            placeholder="브랜드명을 검색하세요."
+            name="brand"
+            {...getSearchInputProps()}
+          />
+          <CategoryList {...getCategoryListProps()} />
+        </S.SearchListGroup>
+        {currentCategory === "all" ? (
+          <ShowItems {...getAllItemsProps()} />
+        ) : currentCategory === "keyword" ? (
+          <ShowItems {...getKeywordItemsProps()} />
+        ) : (
+          <ShowItems {...getCategoryItemsProps()} />
+        )}
+      </S.Wrapper>
     </S.Section>
   );
 }

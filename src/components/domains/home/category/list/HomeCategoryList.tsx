@@ -1,9 +1,8 @@
 import Image from "next/image";
-import { SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
+import { SwiperProps, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import { HeartButton } from "@/components/common";
-import useLike from "@/hooks/useLike";
 import * as S from "./styled";
 
 type HomeCategoryListProps = {
@@ -17,18 +16,49 @@ type ListItems = {
 };
 
 export default function HomeCategoryList({ list }: HomeCategoryListProps) {
-  const { handleLikeItem } = useLike();
+  const [isSwiperEnabled, setIsSwiperEnabled] = useState(
+    window.innerWidth < 1024
+  );
 
+  useEffect(() => {
+    const handleWindowSizeChange = () => {
+      setIsSwiperEnabled(window.innerWidth < 1024);
+    };
+
+    window.addEventListener("resize", handleWindowSizeChange);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const swiperOption: SwiperProps = {
+    spaceBetween: 4,
+    slidesPerView: "auto",
+  };
+
+  if (isSwiperEnabled) {
+    return (
+      <S.CustomSwiper {...swiperOption}>
+        {list.map((item) => (
+          <SwiperSlide key={item.name}>
+            <S.Figure>
+              <Image src={item.src} fill={true} sizes="100%" alt={item.name} />
+            </S.Figure>
+          </SwiperSlide>
+        ))}
+      </S.CustomSwiper>
+    );
+  }
   return (
-    <S.CustomSwiper slidesPerView={"auto"} spaceBetween={4}>
+    <S.Container>
       {list.map((item) => (
-        <SwiperSlide key={item.name}>
+        <S.Wrapper key={item.name}>
           <S.Figure>
             <Image src={item.src} fill={true} sizes="100%" alt={item.name} />
-            <HeartButton onClick={handleLikeItem} />
           </S.Figure>
-        </SwiperSlide>
+        </S.Wrapper>
       ))}
-    </S.CustomSwiper>
+    </S.Container>
   );
 }

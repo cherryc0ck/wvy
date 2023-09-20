@@ -6,6 +6,10 @@ export const Section = styled.section`
     margin: 0 auto;
     padding: 50px 0;
     background-color: ${theme.colors.mainBlack};
+
+    ${theme.media.desktop} {
+      padding: 100px 0;
+    }
   `};
 `;
 
@@ -15,6 +19,11 @@ export const Title = styled.h2`
     padding: 0 20px;
     ${theme.typo.head.sm};
     color: ${theme.colors.white};
+
+    ${theme.media.desktop} {
+      margin-bottom: 20px;
+      ${theme.typo.head.md};
+    }
   `};
 `;
 
@@ -29,6 +38,11 @@ export const CustomSwiper = styled(Swiper)`
     .swiper-wrapper {
       width: 152px;
       height: 228px;
+    }
+
+    ${theme.media.desktop} {
+      margin-bottom: 50px;
+      padding: 0 24px;
     }
   `};
 `;
@@ -47,5 +61,11 @@ export const ButtonWrapper = styled.div`
     gap: 10px;
     margin-bottom: 40px;
     padding: 0 20px;
+
+    ${theme.media.desktop} {
+      gap: 15px;
+      margin-bottom: 50px;
+      padding: 0 24px;
+    }
   `};
 `;

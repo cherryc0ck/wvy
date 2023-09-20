@@ -1,5 +1,4 @@
 import useHomeExhibition from "./hooks/useHomeExhibition";
-import { MoreButton } from "@/components/common";
 import HomePostMenu from "./menu/HomePostMenu";
 import HomePosts from "./posts/HomePosts";
 import * as S from "./styled";
@@ -17,15 +16,19 @@ export default function HomeExhibition() {
 
   return (
     <S.Section>
-      <HomePostMenu
-        list={postList}
-        selected={selectedMenu}
-        onSelectMenu={handleSelectMenu}
-      />
-      <HomePosts posts={currentPost} visiblePostCount={visiblePostCount} />
-      {data.length > visiblePostCount && (
-        <MoreButton themeMode="light" onClick={handleMorePost} />
-      )}
+      <S.Wrapper>
+        <HomePostMenu
+          list={postList}
+          selected={selectedMenu}
+          onSelectMenu={handleSelectMenu}
+        />
+        <HomePosts
+          data={data}
+          posts={currentPost}
+          visiblePostCount={visiblePostCount}
+          onMorePost={handleMorePost}
+        />
+      </S.Wrapper>
     </S.Section>
   );
 }
